@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfólio de Wesley Ribeiro - estudante de Engenharia de Software em busca de estágio na área de tecnologia." />
+    <title>Wesley Ribeiro | Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <a href="#inicio" class="brand">Wesley Ribeiro</a>
+        <nav class="menu">
+          <a href="#sobre">Sobre</a>
+          <a href="#projetos">Projetos</a>
+          <a href="#tecnologias">Tecnologias</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="inicio">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Estudante de Engenharia de Software</span>
+            <h1>Construindo soluções com Python, JavaScript, HTML e CSS.</h1>
+            <p>
+              Estudante de Engenharia de Software em busca de estágio na área de tecnologia,
+              com experiência prática em desenvolvimento web, lógica de programação e criação de projetos públicos no GitHub.
+            </p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#projetos">Ver projetos</a>
+              <a class="btn btn-secondary" href="https://github.com/WesleyRibeiiro051" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+
+            <ul class="mini-stats">
+              <li><strong id="repoCount">0</strong><span>repositórios</span></li>
+              <li><strong id="mainLanguage">-</strong><span>linguagem principal</span></li>
+              <li><strong>SC</strong><span>localização</span></li>
+            </ul>
+          </div>
+
+          <aside class="profile-card">
+            <div class="avatar-wrap">
+              <img src="https://avatars.githubusercontent.com/u/285728254?v=4" alt="Wesley Ribeiro" />
+            </div>
+            <h2>Wesley Ribeiro</h2>
+            <p class="profile-bio" id="profileBio">Estudante de Engenharia de Software | Em busca de estágio na área de Tecnologia</p>
+            <div class="profile-meta">
+              <span>📍 Florianópolis, SC</span>
+              <a href="https://github.com/WesleyRibeiiro051" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com/in/wesley-ribeiro2026/" target="_blank" rel="noreferrer">LinkedIn</a>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="sobre" class="section alt-section">
+        <div class="container two-col">
+          <div>
+            <span class="section-tag">Sobre</span>
+            <h2>Resumo profissional</h2>
+            <p>
+              Meu perfil no GitHub revela um caminho inicial de aprendizado em programação, com foco em lógica, Python, JavaScript, HTML e CSS.
+              Os repositórios mostram projetos práticos e experimentos que reforçam a evolução em desenvolvimento web e front-end.
+            </p>
+            <p>
+              Também há um interesse em projetos com aplicação real, como páginas interativas, dados esportivos, contextos sociais e experiências digitais acessíveis.
+              Essa combinação indica uma trajetória de estudo orientada à prática e à criação de soluções úteis.
+            </p>
+          </div>
+
+          <div class="summary-box">
+            <h3>Foco principal</h3>
+            <ul>
+              <li>Desenvolvimento web</li>
+              <li>Python para lógica e automação</li>
+              <li>JavaScript, HTML e CSS</li>
+              <li>Projetos práticos e portfólio</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="projetos" class="section">
+        <div class="container">
+          <div class="section-head">
+            <span class="section-tag">Projetos</span>
+            <h2>Repositórios públicos do GitHub</h2>
+          </div>
+          <div id="projectsContainer" class="projects-grid"></div>
+        </div>
+      </section>
+
+      <section id="tecnologias" class="section alt-section">
+        <div class="container">
+          <div class="section-head">
+            <span class="section-tag">Stack</span>
+            <h2>Tecnologias observadas no perfil</h2>
+          </div>
+          <div id="techGrid" class="tech-grid"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contato" class="footer">
+      <div class="container footer-content">
+        <div>
+          <h3>Wesley Ribeiro</h3>
+          <p>Estudante de Engenharia de Software em busca de estágio na área de tecnologia.</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://github.com/WesleyRibeiiro051" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/wesley-ribeiro2026/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
