@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Este projeto apresenta um portfólio pessoal com projetos públicos do GitHub, stack observada no perfil e resumo profissional.",
+  "main": "playwright.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WesleyRibeiiro051/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/WesleyRibeiiro051/portfolio/issues"
+  },
+  "homepage": "https://github.com/WesleyRibeiiro051/portfolio#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1"
+  }
+}
