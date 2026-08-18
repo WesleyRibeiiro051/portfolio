@@ -40,8 +40,8 @@ const techList = [
   { name: 'CSS3', icon: '🎨' },
   { name: 'GitHub', icon: '💻' },
   { name: 'Git', icon: '🧩' },
-  { name: 'Lógica', icon: '🧠' },
-  { name: 'Front-end', icon: '🖥️' }
+  { name: 'IA Generativa', icon: '🤖' },
+  { name: 'Copilot VS Code', icon: '⚡' }
 ];
 
 const formatName = (name) => name.replace(/[-_]/g, ' ').replace(/\b\w/g, c => c.toUpperCase());

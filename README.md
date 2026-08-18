@@ -7,10 +7,19 @@ Este projeto apresenta um portfólio pessoal com projetos públicos do GitHub, s
 - `styles.css` — estilos do layout
 - `script.js` — carregamento e apresentação dos repositórios
 
+## Stack atual
+- Python
+- JavaScript
+- HTML5
+- CSS3
+- Git e GitHub
+- IA generativa
+- Copilot integrado ao Visual Studio Code
+
 ## Publicação na Vercel
 1. Envie este projeto para um repositório GitHub.
 2. Conecte o repositório na Vercel.
 3. Faça o deploy com as configurações padrão.
 
 ## Observação
-Os textos dos projetos são baseados nos nomes e descrições públicas dos repositórios e no perfil do GitHub.
+Os textos dos projetos são baseados nos nomes e descrições públicas dos repositórios e no perfil do GitHub, além da utilização de IA generativa e Copilot como parte da rotina de desenvolvimento.
