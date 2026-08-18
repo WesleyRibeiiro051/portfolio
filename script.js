@@ -16,8 +16,8 @@ const projectDefinitions = {
     tech: ['Python', 'Exercícios', 'Desenvolvimento inicial']
   },
   'projeto-social-garapuvu': {
-    summary: 'Projeto voltado a um contexto social e comunitário, com proposta de aplicar tecnologias em uma temática ligada ao município de Garapuva e ao impacto local.',
-    tech: ['JavaScript', 'HTML', 'CSS', 'Impacto social']
+    summary: 'Projeto social do Garapuvu, com foco em aprendizado de desenvolvimento de software, aulas, desafios, mini-projetos e práticas aplicadas, incluindo a visão de QA com IA generativa e experiências reais de desenvolvimento.',
+    tech: ['JavaScript', 'HTML', 'CSS', 'QA com IA', 'Desafios']
   },
   'copa-2026': {
     summary: 'Aplicativo de resultados dos jogos da Copa do Mundo 2026, com foco em interface web e apresentação de informações esportivas de maneira acessível e prática.',
