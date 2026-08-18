@@ -75,8 +75,8 @@ img { max-width: 100%; display: block; }
 .project-meta { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: auto; }
 .tag { display: inline-flex; align-items: center; padding: 0.42rem 0.7rem; border-radius: 999px; background: rgba(255,255,255,0.04); border: 1px solid var(--border); color: var(--text); font-size: 0.75rem; }
 .tech-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; }
-.tech-card { background: var(--card); border: 1px solid var(--border); border-radius: 18px; padding: 1.25rem; text-align: center; font-weight: 700; }
-.tech-card .icon { display: block; font-size: 2rem; margin-bottom: 0.6rem; }
+.tech-card { background: var(--card); border: 1px solid var(--border); border-radius: 18px; padding: 1.25rem; text-align: center; font-weight: 700; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.6rem; }
+.tech-card .icon { display: block; font-size: 2rem; color: var(--primary); }
 .footer { background: rgba(0,0,0,0.15); border-top: 1px solid var(--border); padding: 2rem 0; }
 .footer-content { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
 .footer p { color: var(--muted); }

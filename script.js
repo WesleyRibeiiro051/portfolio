@@ -34,14 +34,14 @@ const projectDefinitions = {
 };
 
 const techList = [
-  { name: 'Python', icon: '🐍' },
-  { name: 'JavaScript', icon: '🟨' },
-  { name: 'HTML5', icon: '🌐' },
-  { name: 'CSS3', icon: '🎨' },
-  { name: 'GitHub', icon: '💻' },
-  { name: 'Git', icon: '🧩' },
-  { name: 'IA Generativa', icon: '🤖' },
-  { name: 'Copilot VS Code', icon: '⚡' }
+  { name: 'Python', icon: 'fa-brands fa-python' },
+  { name: 'JavaScript', icon: 'fa-brands fa-js' },
+  { name: 'HTML5', icon: 'fa-brands fa-html5' },
+  { name: 'CSS3', icon: 'fa-brands fa-css3-alt' },
+  { name: 'GitHub', icon: 'fa-brands fa-github' },
+  { name: 'Git', icon: 'fa-brands fa-git-alt' },
+  { name: 'IA Generativa', icon: 'fa-solid fa-robot' },
+  { name: 'Copilot VS Code', icon: 'fa-solid fa-wand-sparkles' }
 ];
 
 const formatName = (name) => name.replace(/[-_]/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
@@ -50,7 +50,7 @@ const renderTechCards = () => {
   document.getElementById('techGrid').innerHTML = techList
     .map((tech) => `
       <div class="tech-card">
-        <span class="icon">${tech.icon}</span>
+        <i class="icon ${tech.icon}"></i>
         <span>${tech.name}</span>
       </div>
     `)
